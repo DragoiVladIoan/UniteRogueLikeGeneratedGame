@@ -68,6 +68,8 @@ MonoBehaviour:
   - {fileID: 8542872786095001183, guid: 11032ea548f75a841bb7520dfb65f921, type: 3}
   - {fileID: 753307155930187012, guid: 440493563774a384cad6f500d71a5ebf, type: 3}
   - {fileID: 283176647133755519, guid: 3b85d8e85a09e4749940179a90a54eda, type: 3}
+  - {fileID: 5173411301309768109, guid: 436d1452c12092342bad49a208334a3d, type: 3}
+  - {fileID: 8043280392656723764, guid: e28e28949bfa0944fb1dbfb389b1630e, type: 3}
   shapesRight:
   - {fileID: 1393129702095122, guid: 4c08d27d2ae55f347b798c0e01733b35, type: 3}
   - {fileID: 1165192815185774, guid: 19a98ba5043a99b478dd38c676bd57b5, type: 3}
@@ -75,6 +77,8 @@ MonoBehaviour:
   - {fileID: 781719123726297285, guid: a33f4a40574dbc24190ee6bbf03680d7, type: 3}
   - {fileID: 798828390639179437, guid: cc9f6d9710c48f94a89a76c7112c41d4, type: 3}
   - {fileID: 5517634672726101591, guid: 550a02db5f63ca74ab814ddcbfc41753, type: 3}
+  - {fileID: 2933463063927884055, guid: 5aa047e0c6f6be24d853a1b70ac25bcb, type: 3}
+  - {fileID: 5427335658351054072, guid: 5c5d41d33a466b541bdb96c3c4294f03, type: 3}
   boardHolder: {fileID: 0}
   maxLevel: 10
   white: {r: 1, g: 1, b: 1, a: 1}

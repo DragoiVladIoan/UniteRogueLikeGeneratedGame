@@ -38,7 +38,8 @@ public class Player_Score : MonoBehaviour {
     public void ShowExactScore(double percentage)
     {
         GmManager.instance.score.text = ("Fitting " + percentage + "%");
-        
+        GmManager.instance.scoreList.Add(percentage);
+
     }
 
    

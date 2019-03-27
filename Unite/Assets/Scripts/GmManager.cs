@@ -8,8 +8,8 @@ public class GmManager : MonoBehaviour {
 
     public static GmManager instance = null;
     public BoardManager boardScript;
-    private int level = 1;
-    private int maxLevel = 6;
+    private int level = 7;
+    private int maxLevel = 8;
     private float levelStartDelay = 2f;
 
     public Text score;

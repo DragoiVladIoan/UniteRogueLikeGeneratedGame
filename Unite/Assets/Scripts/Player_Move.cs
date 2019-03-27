@@ -52,6 +52,15 @@ public class Player_Move : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D col){
         if (col.gameObject.tag == "shape2")
             allowMove = false;
+        else if (col.gameObject.tag == "death")
+        {
+            allowMove = false;
+            playerScore.ShowExactScore(0);
+            GmManager.instance.setActive(true);
+            Thread.Sleep(500);
+            GmManager.instance.setActive(false);
+            LevelOver();
+        }
     }
 
     private void LevelOver()
